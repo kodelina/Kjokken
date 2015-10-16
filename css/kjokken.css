@@ -160,15 +160,15 @@ section {
 }
 #items div {
     position: absolute;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
 }
 #items div img {
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
 }
 .sveipa-beholder {
@@ -366,7 +366,7 @@ section {
     height: 100%;
     position: fixed;
     z-index: 4;
-    -webkit-transition: margin 0.2s ease-in-out;
+    -webkit-transition: margin .2s ease-out;
 }
 .slide-in {
     margin-left: 0;
@@ -427,13 +427,6 @@ section {
     left: 40px;
     bottom: 20px;
     position: absolute;
-/*
-    left: -100px;
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
-*/
 }
 /* Bildepanel */
 .historical-image {
@@ -442,9 +435,9 @@ section {
     margin-left: 1920px;
     float: right;
     position: fixed;
-    -webkit-transition: margin 0.2s ease-in-out;
-    -moz-transition: margin 0.2s ease-in-out;
-    transition: margin 0.2s ease-in-out;
+    -webkit-transition: margin .2s ease-out;
+    -moz-transition: margin .2s ease-out;
+    transition: margin .2s ease-out;
     z-index: 3;
 }
 .old-image {
