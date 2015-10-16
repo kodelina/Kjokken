@@ -1,10 +1,8 @@
 $(document).ready(function(){
     
-/*
     $(this).bind("contextmenu", function(e) {
         e.preventDefault();
     });
-*/
     
     var itemImages = $( '.sveipa-beholder, .komagerband, .grindvev, .boks, .finsk-bibel, .komager, .lille-katekismen, .benkekarde, .tobakkspung, .tjaere-kopp, .bortre, .lagga-beholder, .det-nye-testamentet' );
     
