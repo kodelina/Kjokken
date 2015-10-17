@@ -157,6 +157,7 @@ section {
 #items {
 	display:none;
 	background-color: #232629;
+	-webkit-transition: background-color .6s linear;
 }
 #items div {
     position: absolute;
